@@ -1,8 +1,8 @@
-## Mortgage Calculator
+### Mortgage Calculator
 
-###Create an application which calculates the mortgage of a house given the principle, interest and term. The application should do the following steps:
+####Create an application which calculates the mortgage of a house given the principle, interest and term. The application should do the following steps:
 
-Steps in Application  Process
+#####Steps in Application  Process
 *Welcome the user to the application.
 *Ask the user what the property ID is.
 *Ask the user what the principle is (ex: 200000), the interest (ex: .0575), and term in months (360).
@@ -13,7 +13,7 @@ double monthlyPayment =  (principle * interest) /  (1 - Math.pow( 1 + interest, 
 *Echo a farewell message to the user.
 *Exit the application.
 
-NOTE:
+####NOTE:
 * To compare Strings you must use equals method or equalsIgnoreCase(). For example:
 if (input.equalsIgnoreCase("quit") || input.equalsIgnoreCase("q")) {... pg 70, Java24Hrs
 
